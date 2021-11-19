@@ -56,4 +56,6 @@ When a user submits an invalid tweet (the tweet textarea is empty or contains mo
 
 !["Screenshot of icons changing color"](https://github.com/kaviramsv/tweeter_pjt/blob/master/docs/tweet_content.png)
 
+!["Screenshot in mobile view"](https://github.com/kaviramsv/tweeter_pjt/blob/master/docs/mobile%20view.png)
+
 
