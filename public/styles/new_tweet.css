@@ -1,0 +1,147 @@
+.new-tweet{
+  display:flex;  
+  flex-direction: column; 
+}
+.new-tweet textarea{
+  width: 100%;
+  border: white;
+  border-bottom: 2px solid black;
+  resize: none;
+}
+.new-tweet textarea:focus{
+  outline: none;   
+}
+.tweetbox{
+  display:flex;  
+  flex-direction:row; 
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family : 'Bungee';
+  margin-bottom: 2em;
+}
+.tweetbox button{
+  margin-top: .5em;
+  background-color: #4056A1;
+  color: wheat;
+}
+.tweetbox .counter{
+  margin-top: .5em;
+}
+.tweet-container{
+  display: flex;
+  flex-direction: column; 
+}
+
+.tweet-container article{
+  display: flex;
+  flex-direction: column; 
+  border: 2px solid #545149;    
+  background-color: white;       
+  margin-top: 2em;
+  margin-bottom: 2em;    
+}
+.tweet-container article:hover{
+  box-shadow: 5px 10px #888888 ;      
+}
+
+.tweet-container article .tweet-header{
+  display: flex;    
+  background-color: white;
+  height:7em ;
+  justify-content: space-between;
+}  
+.tweet-container article .second-header{
+  background-color: white;
+  display: flex;   
+}
+
+
+
+.tweet-container article .second-header p{
+  margin:1.5em ;
+  color:black;
+  opacity: 65%;
+}
+.tweet-container article .second-header img{   
+  margin: 1em;
+  margin-left:1.5em ;
+  height: 2em;
+  width: 2em;   
+} 
+.tweet-container article .tweet-header p{
+  margin:1.5em ;
+  color:black;
+  opacity: 65%;
+} 
+
+
+.tweet-container article p.text{
+  height:3.5em;
+  width:90%;
+  border: white;
+  border-bottom: 2px solid black; 
+  margin-left: 1.5em;   
+  margin-right: 1.5em;
+  margin-bottom: .5em;
+  padding-bottom: .25em;
+  resize: none;     
+}
+.tweet-container article p.text:focus{
+outline: none; 
+}
+.tweet-container article footer{ 
+  /* margin-top: 1em;    */
+  height:2em ;  
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: flex-end;     
+}
+#tweets-container .second-header p{
+  margin-left: 0;
+}
+.tweet-container article footer div .fas{
+  margin-top:0;
+  height : .3em;
+  width :.3em;
+  margin:.5em;    
+}
+.tweet-container article footer div .fas.fa-flag {
+  color: #4056A1;
+}
+.tweet-container article footer div .fas.fa-flag:hover {
+  color:orange;
+}
+.tweet-container article footer div .fas.fa-retweet {
+  color: #4056A1;
+}
+.tweet-container article footer div .fas.fa-retweet:hover {
+  color:orange;
+}
+.tweet-container article footer div .fas.fa-heart{
+  color: #4056A1;
+}
+.tweet-container article footer div .fas.fa-heart:hover {
+  color:orange;
+}
+.tweet-container article footer div{
+  margin:1em;
+  margin-right: 1.5em;
+  
+}
+.tweet-container article footer p{
+  margin:1em;
+  margin-left: 1.5em;
+}  
+.container .new-tweet .error{
+  color:red;
+  line-height: .5em;
+  text-align: center;
+  border: 2px solid red;
+  width:100%; 
+  height: max-content;   
+  display: none;
+  font-weight: bold;
+  }
