@@ -33,7 +33,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Functionalities of the App
 
-- Character Counter
+- Character Counter:
   When a user types into the Compose Tweet textarea, the Character Counter is updated to show how many characters a user may still type (subtracting the number of characters they've typed from the maximum allowable character count of 140)
 
 - The Character Counter turns red (or similar) when more than 140 characters have been  typed into the Compose Tweet textarea, and it shows how many characters over the 140 limit have been typed (using a negative number)
@@ -48,5 +48,12 @@ When a user submits an invalid tweet (the tweet textarea is empty or contains mo
 
 - Action Icons
   When the user hovers over an icon ("Flag", "Re-tweet" and "Like") the icon changes colour.
+
+## Screen Shots
+!["Screenshot of Tweeter page in Desktop"](https://github.com/kaviramsv/tweeter_pjt/blob/master/docs/main_tweet.png)
+
+!["Screenshot of length validation error message "](https://github.com/kaviramsv/tweeter_pjt/blob/master/docs/err.png)
+
+!["Screenshot of icons changing color"](https://github.com/kaviramsv/tweeter_pjt/blob/master/docs/tweet_content.png)
 
 
