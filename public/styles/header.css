@@ -1,0 +1,26 @@
+.body-header{  
+  margin-top: 5em;
+  height : 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  background-color: #638530;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+header img{
+  margin-top: 0px;    
+  margin-bottom:0;
+  padding-bottom: 0;
+  height :auto;
+}
+
+header h2{
+  padding-top:0;
+  margin-top: 0;
+}
+
+.tablet h2{
+  color:white;
+}
