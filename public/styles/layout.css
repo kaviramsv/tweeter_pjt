@@ -15,11 +15,52 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color: #545149;  
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+body{
+  display:flex;  
+  flex-direction: column;
+}
+
+.tablet main.container{
+  margin-left: 2em;
+  margin-right: 2em;
+  width:90%; 
+  align-self: center;  
+}
+
+@media only screen and (min-width: 1024px) { 
+
+  .tablet {
+    display:flex;
+    flex-direction:row;
+  }  
+  header.body-header{
+    width:30%;
+    margin-top: 9em;
+    margin-left: 3em;
+    margin-right: 4em;
+  }
+  header.body-header img{
+    padding-top: 2em;
+  }
+  .tablet main.container{
+    margin-top:7em;
+    margin-right:3em;
+    width:65%;
+  }
+  
+  body nav{
+    background-color:#4056A1 ;   
+  }
+  
+  .tablet img{
+    border-radius: 50%;
+  }
+}
